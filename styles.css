@@ -8,7 +8,13 @@
     text-align: center;
     text-decoration: none;
     border-radius: 20px;
+    transition: transform 0.18 ease; 
+    transition-duration: 0.2s; 
 }
+.PageAccueil:hover {
+    transform: scale(1.05);
+    filter: brightness(0.9);
+} 
 .PageRegles {
     display: block;
     width: 200px;
@@ -19,7 +25,13 @@
     text-align: center;
     text-decoration: none;
     border-radius: 20px;
+    transition: transform 0.18 ease; 
+    transition-duration: 0.2s; 
 }
+.PageRegles:hover {
+    transform: scale(1.05);
+    filter: brightness(0.9);
+} 
 .PagePartie {
     display: block;
     width: 200px;
@@ -30,4 +42,12 @@
     text-align: center;
     text-decoration: none;
     border-radius: 20px;
+}
+body {
+    color: white;
+    background-image: url("images/FondDecranCluedo.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
